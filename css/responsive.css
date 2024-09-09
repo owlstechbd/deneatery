@@ -1,0 +1,129 @@
+@media screen and (max-width: 991px){
+    .navbar-toggler-icon {
+       
+        position: absolute;
+        right: 0;
+        width: 100%;
+        top: 38px;
+        color: #fff;
+    }
+    button.navbar-toggler.collapsed {
+        text-align: right;
+    }
+    button.navbar-toggler.collapsed {
+        text-align: right!important;
+    }
+    i.fas.fa-bars{
+        position: absolute;
+        right: 0;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 720px){
+
+    .header-details h1 {
+        font-size: 36px;
+    }
+    .header-details-btn button {
+        padding: 8px 7px;
+    }
+    .founded-left h3 {
+        font-size: 48px;
+        line-height: 57.6px;
+    }
+    #menus {
+        display: block;
+    }
+    .menus-left {
+        width: 100%; 
+    }
+   /*  .flex-reverse-res{
+        flex-direction: column-reverse;
+    } */
+    .menus-middle {
+        width: 100%;
+        padding: 50px 0;
+    }
+    .menus-last {
+        display: none;
+    }
+    .founded-right img {
+        display: none;
+    }
+    .reservations-details h1 {
+        font-size: 48px;
+
+    }
+    .reservations-details p {
+        margin-top: 15px;
+        font-size: 19px;
+    }
+    .footer-btm ul li a {
+        font-size: 20px;
+    }
+    .footer-main p {
+        font-size: 16px;
+    }
+    .navbar-nav{
+        width: 100%;
+        
+    }
+    .header-social{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .header-social a{
+        float: none;
+    }
+    .about-header-details h1 {
+        font-size: 65px;
+    }
+    .about-founded-left {
+        padding-left: 0px;
+        margin-top: 0px;
+    }
+    .res-founded{
+        margin-bottom: 100px;
+    }
+    .about-founded-left h3 {
+        font-size: 44px;
+    }
+    #about-founded {
+        padding-top: 100px;
+        padding-bottom: 0px; 
+    }
+    .res-left{
+        margin: 100px 0;
+    }
+    .flex-reverse{
+        flex-direction: column-reverse;
+    }
+    .founded-right-photo-1{
+        margin-top: -50px;
+    }
+    .res-founded-left{
+        margin-top: 50px;
+    }
+    .res-about-founded{
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+    .res-photo{
+        margin-top: 100px;
+    }
+    .res-photo-2{
+        margin-bottom: 130px;
+    }
+    .res-mar-top{
+        margin-top: 30px;
+    }
+    .about-founded-left button {
+        margin-bottom: 50px;
+    }
+    .header-btn-all{
+        flex-direction: column;
+    }
+    .header-details-btn-2{
+        margin-top: 30px;
+    }
+}
