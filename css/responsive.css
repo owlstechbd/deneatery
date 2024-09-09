@@ -1,22 +1,35 @@
 @media screen and (max-width: 991px){
-    .navbar-toggler-icon {
-       
-        position: absolute;
-        right: 0;
+    .nav-main{
+        background: #000;
+    }
+    .header-details h1 {
+        text-transform: uppercase;
+        font-size: 50px;
+        font-family: "Cormorant Garamond", serif;
+        color: #FFF;
+        font-weight: 900;
+    }
+    .navbar-collapse{
+        flex-direction: column;
+    }
+    .nav-item a{
+        margin-left: 0;
+        margin: 15px 0;
+    }
+    .mobile-div{
         width: 100%;
-        top: 38px;
+        text-align: left;
+    }
+    .socail-mobile li a i{
+        margin-right: 20px;
+        margin-left: 0;
+    }
+    .for-mobile{
+        display: block;
+    }
+    .mobile-div p {
         color: #fff;
-    }
-    button.navbar-toggler.collapsed {
-        text-align: right;
-    }
-    button.navbar-toggler.collapsed {
-        text-align: right!important;
-    }
-    i.fas.fa-bars{
-        position: absolute;
-        right: 0;
-        width: 100%;
+        font-size: 14px;
     }
 }
 @media screen and (max-width: 720px){
