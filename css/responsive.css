@@ -1,7 +1,5 @@
 @media screen and (max-width: 991px){
-    .nav-main{
-        background: #000;
-    }
+
     .header-details h1 {
         text-transform: uppercase;
         font-size: 50px;
@@ -36,6 +34,7 @@
 
     .header-details h1 {
         font-size: 36px;
+        margin-top: 53px;
     }
     .header-details-btn button {
         padding: 8px 7px;
